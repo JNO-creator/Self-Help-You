@@ -27,9 +27,6 @@
     </style>
 </head>
 <body>
-    <div class="background-person">
-        Explaining to the audience
-    </div>
     <div class="container">
         <div class="box" id="meista">
             <div class="box-content">
