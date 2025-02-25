@@ -12,18 +12,6 @@
             background-color: #f0f0f0;
             border-radius: 10px;
         }
-        .background-person {
-            background-image: url('path-to-person-image.jpg');
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-            font-size: 24px;
-        }
     </style>
 </head>
 <body>
