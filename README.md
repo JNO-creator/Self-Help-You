@@ -1,12 +1,35 @@
-Kotisivu
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .box {
+            border: 2px solid #000;
+            padding: 20px;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+        .background-person {
+            background-image: url('path-to-person-image.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
+    <div class="background-person">
+        Explaining to the audience
+    </div>
     <div class="container">
         <div class="box" id="meista">
             <div class="box-content">
@@ -31,12 +54,3 @@ Kotisivu
     </div>
 </body>
 </html>
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
