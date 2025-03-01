@@ -13,9 +13,10 @@
             <h1>Your Name or Project Title</h1>
             <nav>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">Meistä</a></li>
+                    <li><a href="#projects">Yritys</a></li>
+                    <li><a href="#contact">Palvelut</a></li>
+                    <li><a href="#contact">Koulutus</a></li>
                 </ul>
             </nav>
         </div>
