@@ -10,7 +10,7 @@
     <!-- Header Section -->
     <header>
         <div class="container">
-            <h1>Your Name or Project Title</h1>
+            <h1>Self-Help-You</h1>
             <nav>
                 <ul>
                     <li><a href="#about">Meistä</a></li>
