@@ -7,7 +7,7 @@
     <!-- Inline CSS -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: TT Interphases;
             background-color: #f4f4f4;
             color: #333;
             margin: 0;
