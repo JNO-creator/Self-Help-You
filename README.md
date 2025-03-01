@@ -15,7 +15,7 @@
         }
 
         header {
-            background-color: #044994;
+            background-color: #0368D6;
             color: white;
             padding: 20px;
             text-align: center;
@@ -33,7 +33,7 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #044994;
+            background-color: #0368D6;
             color: white;
         }
 
@@ -102,7 +102,7 @@
             <div class="box">
                 <img src="https://via.placeholder.com/400x200" alt="Yritys">
                 <h3>Yritys</h3>
-                <p>Discover what we do and the services we offer.</p>
+                <p>.</p>
             </div>
 
             <!-- Palvelut Box -->
