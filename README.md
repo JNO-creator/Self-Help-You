@@ -93,7 +93,7 @@
         <div class="box-container">
             <!-- Meistä Box -->
             <div class="box">
-                <img src="https://github.com/user-attachments/assets/d1117b4d-31ca-432f-89c1-76b7eadd4e92/400x200" alt="Meistä">
+                <img src="https://github.com/user-attachments/assets/16a3966f-e4ce-4a7d-8aea-38aea1dfc352/400x200" alt="Meistä">
                 <h3>Meistä</h3>
                 <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
             </div>
