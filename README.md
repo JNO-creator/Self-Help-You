@@ -85,7 +85,7 @@
     <!-- Header -->
     <header>
         <h1>Self-Help-You</h1>
-        <h3>osana pienyrityksien tulevaisuuden suunnittelua</h3>
+        <h3>- osana pienyrityksien tulevaisuuden suunnittelua</h3>
     </header>
 
     <!-- Main Content -->
