@@ -15,7 +15,7 @@
         }
 
         header {
-            background-color: #24292f;
+            background-color: #044994;
             color: white;
             padding: 20px;
             text-align: center;
@@ -33,7 +33,7 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #24292f;
+            background-color: #044994;
             color: white;
         }
 
