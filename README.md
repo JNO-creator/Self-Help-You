@@ -109,14 +109,14 @@
             <div class="box">
                 <img src="https://via.placeholder.com/400x200" alt="Palvelut">
                 <h3>Palvelut</h3>
-                <p>Explore the variety of services we provide to our clients.</p>
+                <p>Kuinka palvelumme voivat auttaa Sinua ja yritoimintaasi</p>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
                 <img src="https://via.placeholder.com/400x200" alt="Koulutus">
                 <h3>Koulutus</h3>
-                <p>Check out the training programs we offer to help you grow.</p>
+                <p>Tutustu monipuolisiin ja monimuotoisiin koulutuksiimme.</p>
             </div>
         </div>
     </section>
