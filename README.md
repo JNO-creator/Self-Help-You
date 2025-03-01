@@ -94,7 +94,7 @@
             <div class="box">
                 <img src="https://github.com/user-attachments/assets/d1117b4d-31ca-432f-89c1-76b7eadd4e92/400x200" alt="Meistä">
                 <h3>Meistä</h3>
-                <p>Learn more about our team and our journey.</p>
+                <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
             </div>
 
             <!-- Yritys Box -->
