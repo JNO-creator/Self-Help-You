@@ -1,32 +1,20 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>My GitHub Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- If you have a CSS file -->
 </head>
 <body>
-    <div class="container">
-        <div class="box" id="meista">
-            <div class="box-content">
-                <h2>Meistä</h2>
-            </div>
-        </div>
-        <div class="box" id="yritys">
-            <div class="box-content">
-                <h2>Yritys</h2>
-            </div>
-        </div>
-        <div class="box" id="palvelut">
-            <div class="box-content">
-                <h2>Palvelut</h2>
-            </div>
-        </div>
-        <div class="box" id="koulutus">
-            <div class="box-content">
-                <h2>Koulutus</h2>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1>Welcome to My GitHub Page!</h1>
+    </header>
+    <main>
+        <p>This is my personal website hosted on GitHub Pages.</p>
+    </main>
+    <footer>
+        <p>Created with ❤️ using GitHub Pages.</p>
+    </footer>
 </body>
 </html>
-
