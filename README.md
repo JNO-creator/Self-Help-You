@@ -2,23 +2,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
-      }
+          }
+
         /* Navigation Bar */
         nav {
             background-color: #333;
             overflow: hidden;
-            display: flex;
-            justify-content: center; /* Center-align the items */
-            padding: 10px 0;
         }
+
         nav a {
+            float: left;
+            display: block;
             color: white;
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
             font-size: 1.2rem;
-            display: block;
         }
+
         nav a:hover {
             background-color: #ddd;
             color: black;
