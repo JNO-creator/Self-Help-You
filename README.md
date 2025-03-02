@@ -97,7 +97,6 @@
         <div class="box">
             <h3>Meistä</h3>
             <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
-        </div>
     </div>
 </section>
             <!-- Yritys Box -->
