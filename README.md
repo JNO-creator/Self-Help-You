@@ -85,7 +85,7 @@
             <!-- Meistä Box -->
             <div class="box">
                 <h3>Meistä</h3>
-                <p>Learn more about our team and our journey.</p>
+                <p>Tutustu tarinaamme ja referensseihin palveluistamme.</p>
             </div>
 
             <!-- Yritys Box -->
