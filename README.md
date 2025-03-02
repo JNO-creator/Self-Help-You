@@ -83,25 +83,25 @@
             <!-- Meistä Box -->
             <div class="box">
                 <h3>Meistä</h3>
-                <p>Learn more about our team and our journey.</p>
+                <p>Lue lisää meistä ja referensseistämme.</p>
             </div>
 
             <!-- Yritys Box -->
             <div class="box">
                 <h3>Yritys</h3>
-                <p>Discover what we do and the services we offer.</p>
+                <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
             </div>
 
             <!-- Palvelut Box -->
             <div class="box">
                 <h3>Palvelut</h3>
-                <p>Explore the variety of services we provide to our clients.</p>
+                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
                 <h3>Koulutus</h3>
-                <p>Check out the training programs we offer to help you grow.</p>
+                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun tarpeillesi.</p>
             </div>
         </div>
     </section>
