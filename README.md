@@ -109,7 +109,7 @@
             <div class="box">
                 <img src="https://via.placeholder.com/400x200" alt="Palvelut">
                 <h3>Palvelut</h3>
-                <p>Kuinka palvelumme voivat auttaa Sinua ja yritoimintaasi</p>
+                <p>Kuinka palvelumme voivat auttaa Sinua ja yritoimintaasi.</p>
             </div>
 
             <!-- Koulutus Box -->
