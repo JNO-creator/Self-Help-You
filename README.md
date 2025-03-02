@@ -2,6 +2,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
+     /* Navigation Bar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Hamburger Icon (Hidden by default) */
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: none;
+        }
+
+        .hamburger span {
+            background-color: white;
+            height: 4px;
+            width: 30px;
+            border-radius: 10px;
+        }
     <!-- Inline CSS -->
     <style>
         body {
