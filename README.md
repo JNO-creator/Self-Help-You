@@ -91,13 +91,13 @@
             <!-- Yritys Box -->
             <div class="box">
                 <h3>Yritys</h3>
-                <p>Lue lisää <b>yrityksestämme ja henkilökuntaamme</b>.</p>
+                <p>Lue lisää yrityksestämme ja henkilökuntaamme.</p>
             </div>
 
             <!-- Palvelut Box -->
             <div class="box">
                 <h3>Palvelut</h3>
-                <p>Explore the variety of services we provide to our clients.</p>
+                <p>Tutustu kuinka voimme auttaa Sinua ja yritystoimintaasi.</p>
             </div>
 
             <!-- Koulutus Box -->
