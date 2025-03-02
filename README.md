@@ -110,7 +110,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
     </footer>
 
 </body>
