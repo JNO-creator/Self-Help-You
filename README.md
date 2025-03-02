@@ -124,8 +124,7 @@
             <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
         </div>
     </div>
-</section>
-            
+</section>   
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Self-help-you. Kaikki oikeudet pidätetään.</p>
