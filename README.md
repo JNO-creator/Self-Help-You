@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self-Help-You</title>
+    <title>Your GitHub Page</title>
 
     <!-- Inline CSS -->
     <style>
         body {
-            font-family: TT Interphases;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
             margin: 0;
@@ -15,7 +16,7 @@
         }
 
         header {
-            background-color: #0368D6;
+            background-color: #24292f;
             color: white;
             padding: 20px;
             text-align: center;
@@ -33,7 +34,7 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #0368D6;
+            background-color: #24292f;
             color: white;
         }
 
@@ -50,18 +51,9 @@
             background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
             padding: 20px;
             transition: transform 0.3s ease;
-        }
-
-        .box img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 8px;
         }
 
         .box h3 {
@@ -81,53 +73,44 @@
     </style>
 </head>
 <body>
+
     <!-- Header -->
     <header>
-        <h1>Self-Help-You</h1>
-        <h3>- osana pienyrityksien tulevaisuuden suunnittelua</h3>
+        <h1>Your GitHub Page</h1>
     </header>
+
     <!-- Main Content -->
     <section>
         <div class="box-container">
-      <section>
-    <div class="box-container">
-        <!-- Meistä Box -->
-        <div class="box">
-            <h3>Meistä</h3>
-            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
+            <!-- Meistä Box -->
+            <div class="box">
+                <h3>Meistä</h3>
+                <p>Learn more about our team and our journey.</p>
+            </div>
+
+            <!-- Yritys Box -->
+            <div class="box">
+                <h3>Yritys</h3>
+                <p>Discover what we do and the services we offer.</p>
+            </div>
+
+            <!-- Palvelut Box -->
+            <div class="box">
+                <h3>Palvelut</h3>
+                <p>Explore the variety of services we provide to our clients.</p>
+            </div>
+
+            <!-- Koulutus Box -->
+            <div class="box">
+                <h3>Koulutus</h3>
+                <p>Check out the training programs we offer to help you grow.</p>
+            </div>
         </div>
-    </div>
-</section>
-          <section>
-    <div class="box-container">
-        <!-- Meistä Box -->
-        <div class="box">
-            <h3>Meistä</h3>
-            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="box-container">
-        <!-- Meistä Box -->
-        <div class="box">
-            <h3>Meistä</h3>
-            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="box-container">
-        <!-- Meistä Box -->
-        <div class="box">
-            <h3>Meistä</h3>
-            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
-        </div>
-    </div>
-</section>   
+    </section>
+
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Self-help-you. Kaikki oikeudet pidätetään.</p>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
     </footer>
 
 </body>
