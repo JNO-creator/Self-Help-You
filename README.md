@@ -76,7 +76,7 @@
 
     <!-- Header -->
     <header>
-        <h1>Your GitHub Page</h1>
+        <h1>Self-Help-You</h1>
     </header>
 
     <!-- Main Content -->
