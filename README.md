@@ -97,13 +97,13 @@
             <!-- Palvelut Box -->
             <div class="box">
                 <h3>Palvelut</h3>
-                <p>Tutustu kuinka voimme auttaa Sinua ja yritystoimintaasi.</p>
+                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi.</p>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
                 <h3>Koulutus</h3>
-                <p>Check out the training programs we offer to help you grow.</p>
+                <p>Lue lisää monimuotoisista ja monipuolisista koulutuksistamme.</p>
             </div>
         </div>
     </section>
