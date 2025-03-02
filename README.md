@@ -81,13 +81,11 @@
     </style>
 </head>
 <body>
-
     <!-- Header -->
     <header>
         <h1>Self-Help-You</h1>
         <h3>- osana pienyrityksien tulevaisuuden suunnittelua</h3>
     </header>
-
     <!-- Main Content -->
     <section>
         <div class="box-container">
@@ -98,7 +96,6 @@
             <h3>Meistä</h3>
             <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
     </div>
-</section>
             <!-- Yritys Box -->
           <div class="box">
             <h3>Yritys</h3>
