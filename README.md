@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,8 +16,7 @@
         }
 
         header {
-            background-color: #0368D6;
-            font: TT Interphases;
+            background-color: #24292f;
             color: white;
             padding: 20px;
             text-align: center;
@@ -27,6 +27,27 @@
             font-size: 2.5rem;
         }
 
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
         section {
             padding: 20px;
         }
@@ -34,84 +55,4 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #0368D6;
-            color: white;
-        }
-
-        /* Box Container */
-        .box-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-
-        /* Box Styles */
-        .box {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            text-align: center;
-            padding: 20px;
-            transition: transform 0.3s ease;
-        }
-
-        .box h3 {
-            margin: 20px 0 10px;
-            font-size: 1.5rem;
-            color: #24292f;
-        }
-
-        .box p {
-            font-size: 1rem;
-            color: #666;
-        }
-
-        .box:hover {
-            transform: translateY(-10px);
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Header -->
-    <header>
-        <h1>Self-Help-You</h1>
-    </header>
-
-    <!-- Main Content -->
-    <section>
-        <div class="box-container">
-            <!-- Meistä Box -->
-            <div class="box">
-                <h3>Meistä</h3>
-                <p>Tutustu tarinaamme ja referensseihin palveluistamme.</p>
-            </div>
-
-            <!-- Yritys Box -->
-            <div class="box">
-                <h3>Yritys</h3>
-                <p>Lue lisää yrityksestämme ja henkilökuntaamme.</p>
-            </div>
-
-            <!-- Palvelut Box -->
-            <div class="box">
-                <h3>Palvelut</h3>
-                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi.</p>
-            </div>
-
-            <!-- Koulutus Box -->
-            <div class="box">
-                <h3>Koulutus</h3>
-                <p>Lue lisää monimuotoisista ja monipuolisista koulutuksistamme.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
-    </footer>
-
-</body>
-</html>
+            background-color: #24292f;
