@@ -89,30 +89,43 @@
     <!-- Main Content -->
     <section>
         <div class="box-container">
-           <section>
+      <section>
     <div class="box-container">
         <!-- Meistä Box -->
         <div class="box">
             <h3>Meistä</h3>
             <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
+        </div>
     </div>
-            <!-- Yritys Box -->
-          <div class="box">
-            <h3>Yritys</h3>
-            <p>Lue lisää yrityksestämme ja tutustu henkilökuntaamme.</p>
+</section>
+          <section>
+    <div class="box-container">
+        <!-- Meistä Box -->
+        <div class="box">
+            <h3>Meistä</h3>
+            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
+        </div>
     </div>
-            <!-- Palvelut Box -->
-          <div class="box">
-            <h3>Palvelut</h3>
-            <p>Kuinka voimme olla avuksi Sinulle ja yrityksellesi.</p>
+</section>
+<section>
+    <div class="box-container">
+        <!-- Meistä Box -->
+        <div class="box">
+            <h3>Meistä</h3>
+            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
+        </div>
     </div>
-            <!-- Koulutus Box -->
-            <div class="box">
-            <h3>Koulutus</h3>
-            <p>Tutustu monimuotoisiin ja monipuolisiin koulutuksiimme.</p>
+</section>
+<section>
+    <div class="box-container">
+        <!-- Meistä Box -->
+        <div class="box">
+            <h3>Meistä</h3>
+            <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
+        </div>
     </div>
-    </section>
-
+</section>
+            
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Self-help-you. Kaikki oikeudet pidätetään.</p>
