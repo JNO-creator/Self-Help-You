@@ -2,13 +2,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
- <!-- Navigation Bar -->
-    <nav>
-        <a href="#meista">Meistä</a>
-        <a href="#yritys">Yritys</a>
-        <a href="#palvelut">Palvelut</a>
-        <a href="#koulutus">Koulutus</a>
-    </nav>
     <!-- Inline CSS -->
     <style>
         body {
@@ -31,6 +24,28 @@
             font-size: 2.5rem;
         }
 
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center; /* Center-align the items */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
         section {
             padding: 20px;
         }
