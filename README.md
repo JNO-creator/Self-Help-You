@@ -16,6 +16,7 @@
 
         header {
             background-color: #24292f;
+            font: TT Interphases;
             color: white;
             padding: 20px;
             text-align: center;
