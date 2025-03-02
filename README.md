@@ -91,7 +91,7 @@
             <!-- Yritys Box -->
             <div class="box">
                 <h3>Yritys</h3>
-                <p>Lue lisää yrityksestämme ja henkilökuntaamme.</p>
+                <p>Lue lisää <b>yrityksestämme ja henkilökuntaamme</b>.</p>
             </div>
 
             <!-- Palvelut Box -->
