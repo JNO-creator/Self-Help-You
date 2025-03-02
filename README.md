@@ -11,7 +11,6 @@
             justify-content: center; /* Center-align the items */
             padding: 10px 0;
         }
-
         nav a {
             color: white;
             text-align: center;
@@ -20,7 +19,6 @@
             font-size: 1.2rem;
             display: block;
         }
-
         nav a:hover {
             background-color: #ddd;
             color: black;
