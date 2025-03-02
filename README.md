@@ -23,7 +23,6 @@
             margin: 0;
             font-size: 2.5rem;
         }
-
         /* Navigation Bar */
         nav {
             background-color: #333;
