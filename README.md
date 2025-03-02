@@ -2,7 +2,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
-
+ <!-- Navigation Bar -->
+    <nav>
+        <a href="#meista">Meistä</a>
+        <a href="#yritys">Yritys</a>
+        <a href="#palvelut">Palvelut</a>
+        <a href="#koulutus">Koulutus</a>
+    </nav>
     <!-- Inline CSS -->
     <style>
         body {
