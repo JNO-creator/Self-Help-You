@@ -101,26 +101,20 @@
     </div>
 </section>
             <!-- Yritys Box -->
-            <div class="box">
-        <img src="https://via.placeholder.com/400x200" alt="Yritys">
-                <h3>Yritys</h3>
-                <p>Lue lisää toiminnastamme ja tutustu henkilökuntaamme.</p>
-            </div>
-
+          <div class="box">
+            <h3>Yritys</h3>
+            <p>Lue lisää yrityksestämme ja tutustu henkilökuntaamme.</p>
+    </div>
             <!-- Palvelut Box -->
-            <div class="box">
-                <img src="https://via.placeholder.com/400x200" alt="Palvelut">
-                <h3>Palvelut</h3>
-                <p>Kuinka palvelumme voivat auttaa Sinua ja yritoimintaasi.</p>
-            </div>
-
+          <div class="box">
+            <h3>Palvelut</h3>
+            <p>Kuinka voimme olla avuksi Sinulle ja yrityksellesi.</p>
+    </div>
             <!-- Koulutus Box -->
             <div class="box">
-                <img src="https://via.placeholder.com/400x200" alt="Koulutus">
-                <h3>Koulutus</h3>
-                <p>Tutustu monipuolisiin ja monimuotoisiin koulutuksiimme.</p>
-            </div>
-        </div>
+            <h3>Koulutus</h3>
+            <p>Tutustu monimuotoisiin ja monipuolisiin koulutuksiimme.</p>
+    </div>
     </section>
 
     <!-- Footer -->
