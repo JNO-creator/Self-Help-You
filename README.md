@@ -93,6 +93,7 @@
         <div class="box-container">
             <!-- Meistä Box -->
             <div class="box">
+                <img src="https://via.placeholder.com/400x200" alt="Meistä">
                 <h3>Meistä</h3>
                 <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
             </div>
