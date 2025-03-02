@@ -100,7 +100,7 @@
 
             <!-- Yritys Box -->
             <div class="box">
-                <img src="https://via.placeholder.com/400x200" alt="Yritys">
+        <img src="https://via.placeholder.com/400x200" alt="Yritys">
                 <h3>Yritys</h3>
                 <p>Lue lisää toiminnastamme ja tutustu henkilökuntaamme.</p>
             </div>
