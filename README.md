@@ -93,7 +93,6 @@
         <div class="box-container">
             <!-- Meistä Box -->
             <div class="box">
-                <img src=400x200>
                 <h3>Meistä</h3>
                 <p>Tutustu tästä tarinaamme ja referensseihin palveluistamme.</p>
             </div>
