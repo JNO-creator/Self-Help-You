@@ -15,7 +15,7 @@
         }
 
         header {
-            background-color: #24292f;
+            background-color: #0368D6;
             font: TT Interphases;
             color: white;
             padding: 20px;
