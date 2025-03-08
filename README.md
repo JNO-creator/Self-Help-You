@@ -86,6 +86,7 @@
             <div class="box">
                 <h3>Meistä</h3>
                 <p>Lue lisää meistä ja referensseistämme.</p>
+                 <a href="/" class="cta-btn">Lue lisää</a>
             </div>
 
             <!-- Yritys Box -->
@@ -99,12 +100,14 @@
             <div class="box">
                 <h3>Palvelut</h3>
                 <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+                 <a href="/Meista" class="cta-btn">Katso tästä</a>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
                 <h3>Koulutus</h3>
                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
         </div>
     </section>
