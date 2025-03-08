@@ -19,7 +19,7 @@
 
         /* Styling the navigation bar */
         .navbar {
-            background-color: #333; /* Dark background color */
+            background-color: #333; 
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
