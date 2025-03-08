@@ -49,6 +49,7 @@
             background-color: #38B6FF;
             border: 1px solid #ddd;
             border-radius: 8px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             text-align: center;
             padding: 20px;
             transition: transform 0.3s ease;
