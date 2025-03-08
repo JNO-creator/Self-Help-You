@@ -19,7 +19,7 @@
 
         /* Styling the navigation bar */
         .navbar {
-            color: linear-gradient(to right, #003366, #ff0000); /* Dark blue to red gradient */ 
+            color: #0e194d;
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
