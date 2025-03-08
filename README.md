@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #0e194d;
+            background-color: #004AAD;
             color: white;
             padding: 20px;
             text-align: center;
@@ -46,7 +46,7 @@
 
         /* Box Styles */
         .box {
-            background-color: #fff;
+            background-color: #38B6FF;
             border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
