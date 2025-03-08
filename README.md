@@ -48,6 +48,7 @@
 
         /* Hamburger menu icon styling */
         .navbar .icon {
+            z-index: 2;
             display: none;
             font-size: 30px;
             color: white;
