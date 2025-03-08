@@ -92,6 +92,7 @@
             <div class="box">
                 <h3>Yritys</h3>
                 <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
+                <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
             <!-- Palvelut Box -->
