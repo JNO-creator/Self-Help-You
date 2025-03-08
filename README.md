@@ -2,7 +2,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
-  <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Responsive Top Navigation</title>
