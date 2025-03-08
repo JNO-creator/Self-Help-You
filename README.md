@@ -57,7 +57,7 @@
 
         .box h3 {
             margin: 20px 0 10px;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: white;
         }
 
