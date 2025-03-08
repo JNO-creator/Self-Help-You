@@ -47,6 +47,7 @@
         /* Box Styles */
         .box {
             background-color: #38B6FF;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 0, 0, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
