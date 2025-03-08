@@ -100,7 +100,7 @@
             <!-- Koulutus Box -->
             <div class="box">
                 <h3>Koulutus</h3>
-                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun tarpeillesi.</p>
+                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
             </div>
         </div>
     </section>
