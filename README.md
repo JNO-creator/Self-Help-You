@@ -5,7 +5,10 @@
     <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Top Navigation</title>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive Top Navigation</title>
     <style>
         /* Reset default margin and padding */
         body, html {
@@ -42,18 +45,68 @@
             background-color: #4CAF50; /* Green background for active link */
             color: white; /* Keep text white for active link */
         }
+
+        /* Hamburger menu icon styling */
+        .navbar .icon {
+            display: none;
+            font-size: 30px;
+            color: white;
+            padding: 14px 20px;
+            background-color: #333;
+            cursor: pointer;
+        }
+
+        /* For small screens (mobile devices) */
+        @media screen and (max-width: 768px) {
+            .navbar a {
+                display: none; /* Hide the links by default */
+                width: 100%; /* Make the links take full width */
+                text-align: left; /* Align links to the left */
+                padding: 14px; /* Adjust padding for the links */
+            }
+
+            .navbar a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            /* Display the hamburger icon */
+            .navbar .icon {
+                display: block;
+            }
+
+            /* When the hamburger icon is clicked, show the links */
+            .navbar.responsive a {
+                display: block;
+            }
+
+            .navbar.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
     </style>
 </head>
 <body>
     <!-- Top Navigation Bar -->
-    <div class="navbar">
+    <div class="navbar" id="myNavbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
+        <!-- Hamburger Icon -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
     </div>
+    <script>
+        /* Function to toggle the navbar on small screens */
+        function toggleNavbar()
+            var navbar = document.getElementById("myNavbar");
+            navbar.classList.toggle("responsive");
+    </script>
 </body>
 </html>
+
     <!-- Inline CSS -->
     <style>
         body {
