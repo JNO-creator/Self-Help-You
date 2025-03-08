@@ -129,7 +129,6 @@
             margin: 0;
             font-size: 3.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
       }
         section {
             padding: 20px;
@@ -139,7 +138,7 @@
             text-align: center;
             padding: 20px;
             background-color: #0368D6;
-            color: white;
+            color: #e1705d;
         }
         /* Box Container */
         .box-container {
