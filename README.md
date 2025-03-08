@@ -120,7 +120,7 @@
 
         header {
             background-color: #004AAD;
-            color: white;
+            color: #0e194d;
             padding: 20px;
             text-align: center;
         }
