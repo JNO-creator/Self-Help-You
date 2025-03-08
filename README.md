@@ -57,12 +57,12 @@
         .box h3 {
             margin: 20px 0 10px;
             font-size: 1.5rem;
-            color: #24292f;
+            color: white;
         }
 
         .box p {
             font-size: 1rem;
-            color: #666;
+            color: white;
         }
 
         .box:hover {
