@@ -2,7 +2,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
-    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Top Navigation</title>
+    <style>
+        /* Reset default margin and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Styling the navigation bar */
+        .navbar {
+            background-color: #333; /* Dark background color */
+            overflow: hidden; /* Ensures the content is contained within the navbar */
+            text-align: center; /* Centers the links */
+        }
+
+        /* Styling each link inside the navbar */
+        .navbar a {
+            display: inline-block; /* Display links horizontally */
+            padding: 14px 20px; /* Padding inside each link */
+            text-decoration: none; /* Removes underline from links */
+            color: white; /* White text color */
+            font-size: 18px; /* Font size for the links */
+            transition: background-color 0.3s ease; /* Smooth transition for background color change */
+        }
+
+        /* Hover effect for the links */
+        .navbar a:hover {
+            background-color: #ddd; /* Light background when hovered */
+            color: black; /* Change text color when hovered */
+        }
+
+        /* Active link styling (when a link is clicked or active) */
+        .navbar a.active {
+            background-color: #4CAF50; /* Green background for active link */
+            color: white; /* Keep text white for active link */
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</body>
+</html>
     <!-- Inline CSS -->
     <style>
         body {
