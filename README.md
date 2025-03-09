@@ -1,21 +1,17 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self-Help-You</title>
-    <html lang="en">
-<head>
-    <title>Responsive Top Navigation</title>
     <style>
         /* Reset default margin and padding */
-        {
+        body, html {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
+
         /* Styling the navigation bar */
         .navbar {
-            background-color: #e1705d; /* Dark background color */
+            background-color: #0e194d; /* Dark background color */
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
@@ -38,7 +34,7 @@
 
         /* Active link styling (when a link is clicked or active) */
         .navbar a.active {
-            background-color: #0e194d; /* Blue background for active link */
+            background-color: #004AAD; /* Blue background for active link */
             color: white; /* Keep text white for active link */
         }
 
@@ -49,7 +45,7 @@
             font-size: 30px;
             color: white;
             padding: 14px 20px;
-            background-color: #0e194d;
+            background-color: #333;
             cursor: pointer;
         }
 
@@ -83,10 +79,41 @@
                 top: 0;
             }
         }
+
+        /* Styling for the header with rolling text effect */
+        .header {
+            background-color: #0e194d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Rolling text effect */
+        .header h1 {
+            display: inline-block;
+            font-size: 36px;
+            white-space: nowrap; /* Prevent the title from wrapping */
+            animation: rollText 10s linear infinite; /* Apply animation to roll the text */
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Keyframes for rolling text animation */
+        @keyframes rollText {
+            0% {
+                transform: translateX(100%); /* Start off to the right */
+            }
+            100% {
+                transform: translateX(-100%); /* End off to the left */
+            }
+        }
+
     </style>
 </head>
 <body>
-    <!-- Top Navigation Bar -->
+    <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
         <a href="#home" class="active">Koti</a>
         <a href="#Meista">Meistä</a>
@@ -96,6 +123,12 @@
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
     </div>
+
+    <!-- Header with rolling text effect -->
+    <div class="header">
+        <h1>Your Rolling Title</h1>
+    </div>
+
     <script>
         /* Function to toggle the navbar on small screens */
         function toggleNavbar() {
