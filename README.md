@@ -16,7 +16,7 @@
 
         /* Styling the navigation bar */
         .navbar {
-            color: #0e194d;
+            color: #004AAD;
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
