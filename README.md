@@ -13,7 +13,6 @@
             padding: 0;
             font-family: Arial, sans-serif;
         }
-
         /* Styling the navigation bar */
         .navbar {
             background-color: #0e194d; /* Dark background color */
