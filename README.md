@@ -213,8 +213,18 @@
             </div>
         </div>
     </section>
-
     <!-- Footer -->
     <footer>
+     </div>
+        <div class="footer-section contact">
+            <h3>Self-Help-You</h3>
+            <ul>
+             <li><a href="#">Ota yhteyttä</a></li>
+             <li><a href="#/">Sähkäposti</a></li>
+             <li><a href="#/">Sosiaalisen median kanavamme</a></li>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    </div>
         <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
     </footer>
