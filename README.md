@@ -187,7 +187,7 @@
     <div class="navbar" id="myNavbar">
         <a href="#home" class="active">Koti</a>
         <a href="/Meista">Meistä</a>
-        <a href="#services">Yritys</a>
+        <a href="/Yritys">Yritys</a>
         <a href="#contact">Palvelut</a>
         <a href="#contact">Koulutus</a>
         <!-- Hamburger Icon -->
