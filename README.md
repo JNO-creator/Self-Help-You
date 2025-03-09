@@ -96,7 +96,6 @@
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
     </div>
-
     <script>
         /* Function to toggle the navbar on small screens */
         function toggleNavbar() {
@@ -104,8 +103,6 @@
             navbar.classList.toggle("responsive");
         }
     </script>
-</body>
-</html>
 </body>
 </html>
 
