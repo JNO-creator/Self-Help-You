@@ -237,7 +237,8 @@ footer a:visited {
         <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
         <a href="/Kanavat" class="cta-btn">Kanavat</a>
     </div> <!-- Closing div for footer-section contact -->
-      </div>
+  <div>     
+</div>
     <div class="footer-bottom">
         <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
     </div> <!-- Closing div for footer-bottom -->
