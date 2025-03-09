@@ -209,7 +209,6 @@
             <div class="box">
                 <h3>Koulutus</h3>
                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                font-weight: bold; /* Makes the link text bold */
                  <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
         </div>
