@@ -118,7 +118,7 @@
 
         header {
             background-color: #004AAD;
-            color: #0e194d;
+            color: white;
             padding: 20px;
             text-align: center;
         }
