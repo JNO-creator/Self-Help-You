@@ -104,7 +104,7 @@
 
         /* Keyframes for rolling text animation */
         @keyframes rollText {
-            0% {
+            10% {
                 transform: translateX(100%); /* Start off to the right */
             }
             100% {
