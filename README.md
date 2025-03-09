@@ -38,7 +38,7 @@
 
         /* Active link styling (when a link is clicked or active) */
         .navbar a.active {
-            background-color: #004AAD; /* Blue background for active link */
+            background-color: #0e194d; /* Blue background for active link */
             color: white; /* Keep text white for active link */
         }
 
