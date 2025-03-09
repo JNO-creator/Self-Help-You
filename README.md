@@ -161,12 +161,12 @@
         .box h3 {
             margin: 20px 0 10px;
             font-size: 1.2rem;
-            color: white;
+            color: #0e194d;
         }
 
         .box p {
             font-size: 1rem;
-            color: white;
+            color: #0e194d;
         }
 
         .box:hover {
