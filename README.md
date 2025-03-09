@@ -196,7 +196,7 @@
 
     <!-- Header with rolling text effect -->
     <div class="header">
-        <h1>Self-Help-You - osana yrityksesi tulevaisuuden suunnittelua</h1>
+        <h1>Self-Help-You</h1>
     </div>
 
     <!-- Main Content -->
@@ -235,7 +235,7 @@
     <!-- Footer -->
     <footer>
         <div class="footer-section contact">
-            <h4>Self-Help-You</h4>
+            <h4>Self-Help-You - osana yrityksesi tulevaisuuden suunnittelua</h4>
             <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
             <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
             <a href="/Kanavat" class="cta-btn">Kanavat</a>
