@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -227,7 +226,7 @@
             </div>
         </div>
     </section>
-
+<div></div>
     <!-- Footer -->
     <footer>
         <div class="footer-section contact">
