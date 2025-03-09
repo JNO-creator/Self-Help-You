@@ -89,10 +89,11 @@
 <body>
     <!-- Top Navigation Bar -->
     <div class="navbar" id="myNavbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="#home" class="active">Koti</a>
+        <a href="#about">Meistä</a>
+        <a href="#services">Yritys</a>
+        <a href="#contact">Palvelut</a>
+        <a href="#contact">Koulutus</a>
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
     </div>
