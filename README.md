@@ -191,7 +191,7 @@
 
     <!-- Header with rolling text effect -->
     <div class="header">
-        <h1>Your Rolling Title</h1>
+        <h1>Self-Help-You</h1>
     </div>
 
     <!-- Main Content -->
