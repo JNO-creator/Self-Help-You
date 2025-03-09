@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -126,13 +127,25 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
-            text-align: center;
-            padding: 20px;
             transition: transform 0.3s ease;
         }
 
+        /* Separate header, content, and footer sections */
+        .box-header {
+            padding: 10px 0;
+        }
+
+        .box-content {
+            padding: 10px;
+        }
+
+        .box-footer {
+            padding: 10px;
+        }
+
+        /* Title and text styles inside the box */
         .box h3 {
-            margin: 20px 0 10px;
+            margin: 0;
             font-size: 24px;
             color: #0e194d;
         }
@@ -142,6 +155,15 @@
             color: #0e194d;
         }
 
+        .box-footer a {
+            text-decoration: none;
+            background-color: #FF5733;
+            padding: 10px 15px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Hover effect */
         .box:hover {
             transform: translateY(-10px);
         }
@@ -204,30 +226,54 @@
         <div class="box-container">
             <!-- Meistä Box -->
             <div class="box">
-                <h3>Meistä</h3>
-                <p>Lue lisää meistä ja referensseistämme.</p>
-                <a href="/Meista" class="cta-btn">Lue lisää</a>
+                <div class="box-header">
+                    <h3>Meistä</h3>
+                </div>
+                <div class="box-content">
+                    <p>Lue lisää meistä ja referensseistämme.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Meista" class="cta-btn">Lue lisää</a>
+                </div>
             </div>
 
             <!-- Yritys Box -->
             <div class="box">
-                <h3>Yritys</h3>
-                <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
-                <a href="/Yritys" class="cta-btn">Tutustu</a>
+                <div class="box-header">
+                    <h3>Yritys</h3>
+                </div>
+                <div class="box-content">
+                    <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Yritys" class="cta-btn">Tutustu</a>
+                </div>
             </div>
 
             <!-- Palvelut Box -->
             <div class="box">
-                <h3>Palvelut</h3>
-                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-                <a href="/Palvelut" class="cta-btn">Katso tästä</a>
+                <div class="box-header">
+                    <h3>Palvelut</h3>
+                </div>
+                <div class="box-content">
+                    <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Palvelut" class="cta-btn">Katso tästä</a>
+                </div>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
-                <h3>Koulutus</h3>
-                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                <a href="/Koulutus" class="cta-btn">Lue lisää</a>
+                <div class="box-header">
+                    <h3>Koulutus</h3>
+                </div>
+                <div class="box-content">
+                    <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Koulutus" class="cta-btn">Lue lisää</a>
+                </div>
             </div>
         </div>
     </section>
@@ -252,5 +298,6 @@
             navbar.classList.toggle("responsive");
         }
     </script>
+
 </body>
 </html>
