@@ -239,6 +239,8 @@ footer a:visited {
     </div> <!-- Closing div for footer-section contact -->
   <div>     
 </div>
+    <div>     
+</div>
     <div class="footer-bottom">
         <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
     </div> <!-- Closing div for footer-bottom -->
