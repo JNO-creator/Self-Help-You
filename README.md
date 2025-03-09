@@ -16,7 +16,7 @@
 
         /* Styling the navigation bar */
         .navbar {
-            background-color: #0e194d; /* Dark background color *
+            background-color: #0e194d; /* Dark background color */
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
@@ -90,19 +90,23 @@
     <!-- Top Navigation Bar -->
     <div class="navbar" id="myNavbar">
         <a href="#home" class="active">Koti</a>
-        <a href="/Meista**">Meistä</a>
+        <a href="#Meista">Meistä</a>
         <a href="#services">Yritys</a>
         <a href="#contact">Palvelut</a>
         <a href="#contact">Koulutus</a>
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
     </div>
+
     <script>
         /* Function to toggle the navbar on small screens */
-        function toggleNavbar()
+        function toggleNavbar() {
             var navbar = document.getElementById("myNavbar");
             navbar.classList.toggle("responsive");
+        }
     </script>
+</body>
+</html>
 </body>
 </html>
 
