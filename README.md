@@ -133,12 +133,12 @@
 
         .box h3 {
             margin: 20px 0 10px;
-            font-size: 1.2rem;
+            font-size: 24px;
             color: #0e194d;
         }
 
         .box p {
-            font-size: 1rem;
+            font-size: 14px;
             color: #0e194d;
         }
 
