@@ -126,7 +126,7 @@
         header h1 {
             margin: 0;
             font-size: 3.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
         section {
             padding: 20px;
@@ -152,7 +152,6 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             text-align: center;
             padding: 20px;
             transition: transform 0.3s ease;
