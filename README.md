@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -174,6 +175,11 @@
             padding-top: 10px;
         }
 
+        /* Add space between the last box and footer */
+        section {
+            padding-bottom: 40px; /* Space between content and footer */
+        }
+
     </style>
 </head>
 <body>
@@ -191,7 +197,7 @@
 
     <!-- Header with rolling text effect -->
     <div class="header">
-        <h1>Self-Help-You</h1>
+        <h1>Your Rolling Title</h1>
     </div>
 
     <!-- Main Content -->
@@ -226,7 +232,6 @@
             </div>
         </div>
     </section>
-<div></div>
 
     <!-- Footer -->
     <footer>
