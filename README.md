@@ -214,13 +214,14 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer>
-        <div class="footer-section contact">
-            <h4>Self-Help-You</h4>
-             <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
-             <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
-             <a href="/Kanavat" class="cta-btn">Kanavat</a>      
-             </div>
+<footer>
+    <div class="footer-section contact">
+        <h4>Self-Help-You</h4>
+        <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
+        <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
+        <a href="/Kanavat" class="cta-btn">Kanavat</a>
+    </div> <!-- Closing div for footer-section contact -->
     <div class="footer-bottom">
         <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
-    </footer>
+    </div> <!-- Closing div for footer-bottom -->
+</footer>
