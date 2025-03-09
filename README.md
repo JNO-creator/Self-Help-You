@@ -161,7 +161,7 @@
 
         .box-footer a {
             text-decoration: none;
-            background-color: #FF5733;
+            background-color: #e1705d;
             padding: 10px 15px;
             color: white;
             border-radius: 5px;
