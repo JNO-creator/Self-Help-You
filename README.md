@@ -27,7 +27,7 @@
             padding: 14px 20px; /* Padding inside each link */
             text-decoration: none; /* Removes underline from links */
             color: white; /* White text color */
-            font-size: 18px; /* Font size for the links */
+            font-size: 16px; /* Font size for the links */
             transition: background-color 0.3s ease; /* Smooth transition for background color change */
         }
 
@@ -39,7 +39,7 @@
 
         /* Active link styling (when a link is clicked or active) */
         .navbar a.active {
-            background-color: #4CAF50; /* Green background for active link */
+            background-color: #004AAD; /* Blue background for active link */
             color: white; /* Keep text white for active link */
         }
 
