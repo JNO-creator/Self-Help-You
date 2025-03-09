@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -127,19 +128,23 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             transition: transform 0.3s ease;
+            text-align: center; /* Center text inside the box */
         }
 
         /* Separate header, content, and footer sections */
         .box-header {
             padding: 10px 0;
+            text-align: center; /* Ensure the header text is centered */
         }
 
         .box-content {
             padding: 10px;
+            text-align: center; /* Ensure the content text is centered */
         }
 
         .box-footer {
             padding: 10px;
+            text-align: center; /* Center the footer content (including the button) */
         }
 
         /* Title and text styles inside the box */
@@ -160,6 +165,7 @@
             padding: 10px 15px;
             color: white;
             border-radius: 5px;
+            display: inline-block; /* Make the link behave like a button */
         }
 
         /* Hover effect */
@@ -199,7 +205,6 @@
         section {
             padding-bottom: 40px; /* Space between content and footer */
         }
-
     </style>
 </head>
 <body>
