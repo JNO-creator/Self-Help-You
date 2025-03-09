@@ -15,7 +15,7 @@
         }
         /* Styling the navigation bar */
         .navbar {
-            background-color: #0e194d; /* Dark background color */
+            background-color: #e1705d; /* Dark background color */
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
