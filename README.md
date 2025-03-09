@@ -47,7 +47,7 @@
             font-size: 30px;
             color: white;
             padding: 14px 20px;
-            background-color: #333;
+            background-color: #0e194d;
             cursor: pointer;
         }
 
