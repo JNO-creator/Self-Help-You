@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +13,7 @@
 
         /* Styling the navigation bar */
         .navbar {
-            background-color: #0e194d; /* Dark background color */
+            background-color: #e1705d; /* Red background color */
             overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
@@ -37,7 +36,7 @@
 
         /* Active link styling (when a link is clicked or active) */
         .navbar a.active {
-            background-color: #004AAD; /* Blue background for active link */
+            background-color: #0e194d; /* Blue background for active link */
             color: white; /* Keep text white for active link */
         }
 
