@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Help-You</title>
     <style>
         /* Reset default margin and padding */
         body, html {
@@ -110,82 +113,6 @@
             }
         }
 
-    </style>
-</head>
-<body>
-    <!-- Top Navigation Bar placed before the header -->
-    <div class="navbar" id="myNavbar">
-        <a href="#home" class="active">Koti</a>
-        <a href="#Meista">Meistä</a>
-        <a href="#services">Yritys</a>
-        <a href="#contact">Palvelut</a>
-        <a href="#contact">Koulutus</a>
-        <!-- Hamburger Icon -->
-        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
-    </div>
-
-    <!-- Header with rolling text effect -->
-    <div class="header">
-        <h1>Your Rolling Title</h1>
-    </div>
-
-    <script>
-        /* Function to toggle the navbar on small screens */
-        function toggleNavbar() {
-            var navbar = document.getElementById("myNavbar");
-            navbar.classList.toggle("responsive");
-        }
-    </script>
-</body>
-</html>
-    <!-- Inline CSS -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #0e194d;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #0e194d;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 3.5rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      }
-        section {
-            padding: 20px;
-        }
-
-        footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0e194d; /* Blue background for the footer */
-    color: white; /* White text color */
-}
-
-footer a {
-    text-decoration: none; /* Removes underline */
-    color: white; /* Link color in the footer */
-    font-size: 16px; /* Optional: Adjust font size for links */
-    margin: 0 10px; /* Add spacing between links */
-    transition: color 0.3s ease; /* Smooth transition for color change */
-}
-
-footer a:hover {
-    color: #FF5733; /* Color when hovered (e.g., light orange) */
-}
-
-footer a:visited {
-    color: #8E44AD; /* Purple color after the link is visited */
-        }
         /* Box Container */
         .box-container {
             display: grid;
@@ -197,7 +124,7 @@ footer a:visited {
         /* Box Styles */
         .box {
             background-color: #38B6FF;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
@@ -219,15 +146,54 @@ footer a:visited {
         .box:hover {
             transform: translateY(-10px);
         }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0e194d; /* Blue background for the footer */
+            color: white; /* White text color */
+        }
+
+        footer a {
+            text-decoration: none; /* Removes underline */
+            color: white; /* Link color in the footer */
+            font-size: 16px; /* Optional: Adjust font size for links */
+            margin: 0 10px; /* Add spacing between links */
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+        footer a:hover {
+            color: #FF5733; /* Color when hovered (e.g., light orange) */
+        }
+
+        footer a:visited {
+            color: #8E44AD; /* Purple color after the link is visited */
+        }
+
+        /* Footer Bottom */
+        .footer-bottom {
+            padding-top: 10px;
+        }
+
     </style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Self-Help-You</h1>
-        <h3> - osana pienyrityksien tulevaisuuden suunnittelua</h3>
-    </header>
+    <!-- Top Navigation Bar placed before the header -->
+    <div class="navbar" id="myNavbar">
+        <a href="#home" class="active">Koti</a>
+        <a href="#Meista">Meistä</a>
+        <a href="#services">Yritys</a>
+        <a href="#contact">Palvelut</a>
+        <a href="#contact">Koulutus</a>
+        <!-- Hamburger Icon -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+    </div>
+
+    <!-- Header with rolling text effect -->
+    <div class="header">
+        <h1>Your Rolling Title</h1>
+    </div>
 
     <!-- Main Content -->
     <section>
@@ -236,7 +202,7 @@ footer a:visited {
             <div class="box">
                 <h3>Meistä</h3>
                 <p>Lue lisää meistä ja referensseistämme.</p>
-                 <a href="/" class="cta-btn">Lue lisää</a>
+                <a href="/" class="cta-btn">Lue lisää</a>
             </div>
 
             <!-- Yritys Box -->
@@ -250,30 +216,37 @@ footer a:visited {
             <div class="box">
                 <h3>Palvelut</h3>
                 <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-                 <a href="/Meista" class="cta-btn">Katso tästä</a>
+                <a href="/Meista" class="cta-btn">Katso tästä</a>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
                 <h3>Koulutus</h3>
                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                 <a href="/Meista" class="cta-btn">Lue lisää</a>
+                <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
         </div>
     </section>
+
     <!-- Footer -->
-<footer>
-    <div class="footer-section contact">
-        <h4>Self-Help-You</h4>
-        <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
-        <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
-        <a href="/Kanavat" class="cta-btn">Kanavat</a>
-    </div> <!-- Closing div for footer-section contact -->
-  <div>     
-</div>
-    <div>     
-</div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
-    </div> <!-- Closing div for footer-bottom -->
-</footer>
+    <footer>
+        <div class="footer-section contact">
+            <h4>Self-Help-You</h4>
+            <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
+            <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
+            <a href="/Kanavat" class="cta-btn">Kanavat</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
+        </div>
+    </footer>
+
+    <script>
+        /* Function to toggle the navbar on small screens */
+        function toggleNavbar() {
+            var navbar = document.getElementById("myNavbar");
+            navbar.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
