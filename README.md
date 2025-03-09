@@ -133,10 +133,28 @@
         }
 
         footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0368D6;
-            color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #0368D6; /* Blue background for the footer */
+    color: white; /* White text color */
+}
+
+footer a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Link color in the footer */
+    font-size: 16px; /* Optional: Adjust font size for links */
+    margin: 0 10px; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+footer a:hover {
+    color: #FF5733; /* Color when hovered (e.g., light orange) */
+}
+
+footer a:visited {
+    color: #8E44AD; /* Purple color after the link is visited */
+}
+
         }
         /* Box Container */
         .box-container {
