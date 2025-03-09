@@ -116,7 +116,7 @@
         }
 
         header {
-            background-color: #004AAD;
+            background-color: #0e194d;
             color: white;
             padding: 20px;
             text-align: center;
@@ -134,7 +134,7 @@
         footer {
     text-align: center;
     padding: 20px;
-    background-color: #0368D6; /* Blue background for the footer */
+    background-color: #0e194d; /* Blue background for the footer */
     color: white; /* White text color */
 }
 
