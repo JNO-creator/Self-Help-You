@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -105,7 +104,7 @@
 
         /* Keyframes for rolling text animation */
         @keyframes rollText {
-            0% {
+            10% {
                 transform: translateX(100%); /* Start off to the right */
             }
             100% {
@@ -116,7 +115,7 @@
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two equal width columns */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 10px;
             margin-top: 40px;
         }
@@ -127,13 +126,25 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
-            text-align: center;
-            padding: 10px;
             transition: transform 0.3s ease;
         }
 
+        /* Separate header, content, and footer sections */
+        .box-header {
+            padding: 10px 0;
+        }
+
+        .box-content {
+            padding: 10px;
+        }
+
+        .box-footer {
+            padding: 10px;
+        }
+
+        /* Title and text styles inside the box */
         .box h3 {
-            margin: 20px 0 10px;
+            margin: 0;
             font-size: 24px;
             color: #0e194d;
         }
@@ -143,41 +154,17 @@
             color: #0e194d;
         }
 
+        .box-footer a {
+            text-decoration: none;
+            background-color: #FF5733;
+            padding: 10px 15px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Hover effect */
         .box:hover {
             transform: translateY(-10px);
-        }
-
-        /* Smaller Boxes with Reduced Width */
-        .box-small {
-            background-color: #f7a539; /* Light background for smaller boxes */
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
-            padding: 20px;
-            height: 200px; /* Set a fixed height */
-            border-radius: 8px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        /* Box with Background Image */
-        .box-image {
-            background-image: url('https://via.placeholder.com/500'); /* Add your image URL here */
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 40px;
-            text-align: center;
-            height: 250px; /* Set a fixed height */
-            border-radius: 8px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
-        }
-
-        .box-image h3 {
-            font-size: 24px;
-            color: white;
-        }
-
-        .box-image p {
-            font-size: 14px;
         }
 
         footer {
@@ -219,8 +206,8 @@
 
     <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
-        <a href="/Kotisivu">Koti</a>
-        <a href="#Meista" class="active">Meistä</a>
+        <a href="#home" class="active">Koti</a>
+        <a href="/Meista">Meistä</a>
         <a href="/Yritys">Yritys</a>
         <a href="/Palvelut">Palvelut</a>
         <a href="/Koulutus">Koulutus</a>
@@ -236,30 +223,56 @@
     <!-- Main Content -->
     <section>
         <div class="box-container">
-            <!-- Meistä Box (Smaller) -->
-            <div class="box-small">
-                <h3>Meistä</h3>
-                <p>Lue lisää meistä ja referensseistämme.</p>
-                <a href="/Meista" class="cta-btn">Lue lisää</a>
+            <!-- Meistä Box -->
+            <div class="box">
+                <div class="box-header">
+                    <h3>Meistä</h3>
+                </div>
+                <div class="box-content">
+                    <p>Lue lisää meistä ja referensseistämme.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Meista" class="cta-btn">Lue lisää</a>
+                </div>
             </div>
 
-            <!-- Yritys Box (Smaller) -->
-            <div class="box-small">
-                <h3>Yritys</h3>
-                <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
-                <a href="/Meista" class="cta-btn">Tutustu</a>
+            <!-- Yritys Box -->
+            <div class="box">
+                <div class="box-header">
+                    <h3>Yritys</h3>
+                </div>
+                <div class="box-content">
+                    <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Yritys" class="cta-btn">Tutustu</a>
+                </div>
             </div>
 
-            <!-- Palvelut Box (With Background Image) -->
-            <div class="box-image">
-                <h3>Palvelut</h3>
-                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+            <!-- Palvelut Box -->
+            <div class="box">
+                <div class="box-header">
+                    <h3>Palvelut</h3>
+                </div>
+                <div class="box-content">
+                    <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Palvelut" class="cta-btn">Katso tästä</a>
+                </div>
             </div>
 
-            <!-- Koulutus Box (With Background Image) -->
-            <div class="box-image">
-                <h3>Koulutus</h3>
-                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+            <!-- Koulutus Box -->
+            <div class="box">
+                <div class="box-header">
+                    <h3>Koulutus</h3>
+                </div>
+                <div class="box-content">
+                    <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+                </div>
+                <div class="box-footer">
+                    <a href="/Koulutus" class="cta-btn">Lue lisää</a>
+                </div>
             </div>
         </div>
     </section>
@@ -267,10 +280,10 @@
     <!-- Footer -->
     <footer>
         <div class="footer-section contact">
-            <h4>Self-Help-You</h4>
-            <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
-            <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
-            <a href="/Kanavat" class="cta-btn">Kanavat</a>
+            <h4>Self-Help-You - osana yrityksesi tulevaisuuden suunnittelua</h4>
+            <a href="#Otayhteytta" class="cta-btn">Ota yhteyttä</a>
+            <a href="#Sahkoposti" class="cta-btn">Sähköposti</a>
+            <a href="#Kanavat" class="cta-btn">Kanavat</a>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
@@ -284,5 +297,6 @@
             navbar.classList.toggle("responsive");
         }
     </script>
+
 </body>
 </html>
