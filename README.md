@@ -206,7 +206,7 @@
             <div class="box">
                 <h3>Meistä</h3>
                 <p>Lue lisää meistä ja referensseistämme.</p>
-                <a href="/" class="cta-btn">Lue lisää</a>
+                <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
             <!-- Yritys Box -->
