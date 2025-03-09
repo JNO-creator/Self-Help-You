@@ -136,7 +136,7 @@
             text-align: center;
             padding: 20px;
             background-color: #0368D6;
-            color: #e1705d;
+            color: white;
         }
         /* Box Container */
         .box-container {
