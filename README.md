@@ -213,21 +213,21 @@
             <div class="box">
                 <h3>Yritys</h3>
                 <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
-                <a href="/Meista" class="cta-btn">Tutustu</a>
+                <a href="/Yritys" class="cta-btn">Tutustu</a>
             </div>
 
             <!-- Palvelut Box -->
             <div class="box">
                 <h3>Palvelut</h3>
                 <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-                <a href="/Meista" class="cta-btn">Katso tästä</a>
+                <a href="/Palvelut" class="cta-btn">Katso tästä</a>
             </div>
 
             <!-- Koulutus Box -->
             <div class="box">
                 <h3>Koulutus</h3>
                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                <a href="/Meista" class="cta-btn">Lue lisää</a>
+                <a href="/Koulutus" class="cta-btn">Lue lisää</a>
             </div>
         </div>
     </section>
