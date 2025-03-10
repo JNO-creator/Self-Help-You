@@ -244,8 +244,7 @@
 
     <!-- New Section with Grey Background and Title/Text -->
     <div class="intro-text">
-        <h2>Welcome to Self-Help-You</h2>
-        <p>We help businesses like yours plan for a successful future. Explore our services and discover how we can assist you in achieving your goals.</p>
+        <h2>osana pienyrityksien tulevaisuuden suunnittelua</h2>
     </div>
 
     <!-- Main Content -->
