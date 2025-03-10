@@ -244,7 +244,7 @@
 
     <!-- New Section with Grey Background and Title/Text -->
     <div class="intro-text">
-        <h2>osana pienyrityksien tulevaisuuden suunnittelua</h2>
+        <h2>- osana pienyrityksien Tulevaisuuden Suunnittelua</h2>
     </div>
 
     <!-- Main Content -->
