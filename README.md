@@ -151,12 +151,12 @@
         .box h3 {
             margin: 0;
             font-size: 24px;
-            color: #0e194d;
+            color: #e1705d;
         }
 
         .box p {
             font-size: 14px;
-            color: #0e194d;
+            color: #e1705d;
         }
 
         .box-footer a {
