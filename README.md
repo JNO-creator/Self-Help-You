@@ -14,7 +14,8 @@
         /* Styling the navigation bar */
         .navbar {
             background-color: #e1705d; /* Red background color */
-            overflow: hidden; /* Ensures the content is contained within the navbar */
+            overflow: hidden; /* Ensures
+            the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
 
@@ -160,7 +161,7 @@
 
         .box-footer a {
             text-decoration: none;
-            background-color: #e1705d;
+            background-color: #0e194d;
             padding: 10px 15px;
             color: white;
             border-radius: 5px;
