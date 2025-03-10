@@ -112,7 +112,23 @@
                 transform: translateX(-100%); /* End off to the left */
             }
         }
-
+ 
+          /* New Text Section */
+          .intro-text {
+              text-align: center;
+              padding: 40px;
+              background-color: #f0f0f0; /* Light background for the text section */
+          }
+ 
+          .intro-text h2 {
+              font-size: 24px;
+              color: #0e194d;
+          }
+ 
+          .intro-text p {
+              font-size: 14px;
+              color: #0e194d;
+          }
         /* Box Container */
         .box-container {
             display: grid;
