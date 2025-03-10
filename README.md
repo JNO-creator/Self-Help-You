@@ -14,8 +14,7 @@
         /* Styling the navigation bar */
         .navbar {
             background-color: #e1705d; /* Red background color */
-            overflow: hidden; /* Ensures
-            the content is contained within the navbar */
+            overflow: hidden; /* Ensures the content is contained within the navbar */
             text-align: center; /* Centers the links */
         }
 
@@ -112,23 +111,25 @@
                 transform: translateX(-100%); /* End off to the left */
             }
         }
- 
-          /* New Text Section */
-          .intro-text {
-              text-align: center;
-              padding: 40px;
-              background-color: #f0f0f0; /* Light background for the text section */
-          }
- 
-          .intro-text h2 {
-              font-size: 24px;
-              color: #0e194d;
-          }
- 
-          .intro-text p {
-              font-size: 14px;
-              color: #0e194d;
-          }
+
+        /* New Text Section */
+        .intro-text {
+            text-align: center;
+            padding: 40px;
+            background-color: #f0f0f0; /* Light grey background */
+            margin-top: 20px; /* Add some spacing from the header */
+        }
+
+        .intro-text h2 {
+            font-size: 24px;
+            color: #0e194d; /* Blue color for the title */
+        }
+
+        .intro-text p {
+            font-size: 14px;
+            color: #0e194d; /* Blue color for the paragraph text */
+        }
+
         /* Box Container */
         .box-container {
             display: grid;
@@ -239,6 +240,12 @@
     <!-- Header with rolling text effect -->
     <div class="header">
         <h1>Self-Help-You</h1>
+    </div>
+
+    <!-- New Section with Grey Background and Title/Text -->
+    <div class="intro-text">
+        <h2>Welcome to Self-Help-You</h2>
+        <p>We help businesses like yours plan for a successful future. Explore our services and discover how we can assist you in achieving your goals.</p>
     </div>
 
     <!-- Main Content -->
