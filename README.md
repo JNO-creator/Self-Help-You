@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
     <style>
@@ -58,11 +59,6 @@
                 width: 100%; /* Make the links take full width */
                 text-align: left; /* Align links to the left */
                 padding: 14px; /* Adjust padding for the links */
-            }
-
-            .navbar a.active {
-                background-color: #0e194d;
-                color: white;
             }
 
             /* Display the hamburger icon */
@@ -223,18 +219,17 @@
             padding-bottom: 40px; /* Space between content and footer */
         }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
         <a href="#home" class="active">Koti</a>
-        <a href="/Meista">Meistä</a>
-        <a href="/Yritys">Yritys</a>
-        <a href="/Palvelut">Palvelut</a>
-        <a href="/Koulutus">Koulutus</a>
+        <a href="#Meista">Meistä</a>
+        <a href="#Yritys">Yritys</a>
+        <a href="#Palvelut">Palvelut</a>
+        <a href="#Koulutus">Koulutus</a>
         <!-- Hamburger Icon -->
-        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()" aria-label="Toggle navigation">&#9776;</a>
     </div>
 
     <!-- Header with rolling text effect -->
@@ -259,7 +254,7 @@
                     <p>Lue lisää meistä ja referensseistämme.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="/Meista" class="cta-btn">Lue lisää</a>
+                    <a href="#Meista" class="cta-btn">Lue lisää</a>
                 </div>
             </div>
 
@@ -272,7 +267,7 @@
                     <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="/Yritys" class="cta-btn">Tutustu</a>
+                    <a href="#Yritys" class="cta-btn">Tutustu</a>
                 </div>
             </div>
 
@@ -285,7 +280,7 @@
                     <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="/Palvelut" class="cta-btn">Katso tästä</a>
+                    <a href="#Palvelut" class="cta-btn">Katso tästä</a>
                 </div>
             </div>
 
@@ -298,7 +293,7 @@
                     <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="/Koulutus" class="cta-btn">Lue lisää</a>
+                    <a href="#Koulutus" class="cta-btn">Lue lisää</a>
                 </div>
             </div>
         </div>
@@ -323,7 +318,23 @@
             var navbar = document.getElementById("myNavbar");
             navbar.classList.toggle("responsive");
         }
+
+        /* Active link functionality */
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.navbar a.active').classList.remove('active');
+                this.classList.add('active');
+            });
+        });
+
+        /* Reset navbar on screen resize */
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                var navbar = document.getElementById("myNavbar");
+                navbar.classList.remove('responsive');
+            }
+        });
     </script>
 
-</body>
+  </body>
 </html>
