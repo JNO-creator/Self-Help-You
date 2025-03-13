@@ -253,7 +253,7 @@
                     <p>Lue lisää meistä ja referensseistämme.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="#Meista" class="cta-btn">Lue lisää</a>
+                    <a href="/Meista" class="cta-btn">Lue lisää</a>
                 </div>
             </div>
 
@@ -266,7 +266,7 @@
                     <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="#Yritys" class="cta-btn">Tutustu</a>
+                    <a href="/Yritys" class="cta-btn">Tutustu</a>
                 </div>
             </div>
 
@@ -279,7 +279,7 @@
                     <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="#Palvelut" class="cta-btn">Katso tästä</a>
+                    <a href="/Palvelut" class="cta-btn">Katso tästä</a>
                 </div>
             </div>
 
@@ -292,7 +292,7 @@
                     <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
                 </div>
                 <div class="box-footer">
-                    <a href="#Koulutus" class="cta-btn">Lue lisää</a>
+                    <a href="/Koulutus" class="cta-btn">Lue lisää</a>
                 </div>
             </div>
         </div>
