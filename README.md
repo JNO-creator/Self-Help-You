@@ -24,7 +24,7 @@
         padding: 14px 20px; /* Padding inside each link */
         text-decoration: none; /* Removes underline from links */
         color: white; /* White text color */
-        font-size: 16px; /* Font size for the links */
+        font-size: 1px; /* Font size for the links */
         transition: background-color 0.3s ease; /* Smooth transition for background color change */
       }
 
@@ -44,7 +44,7 @@
       .navbar .icon {
         z-index: 2;
         display: none;
-        font-size: 30px;
+        font-size: 27px;
         color: white;
         padding: 14px 20px;
         background-color: #0e194d;
