@@ -298,8 +298,6 @@
           <div class="box-footer">
             <a href="/Koulutus" class="cta-btn">Lue lisää</a>
           </div>
-        </div>
-      </div>
     </section>
 
     <!-- Footer -->
