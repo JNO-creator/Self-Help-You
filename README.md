@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
     <style>
-      /* Your CSS here */
       /* Reset default margin and padding */
       body, html {
         margin: 0;
@@ -44,13 +43,13 @@
 
       /* Hamburger menu icon styling */
       .navbar .icon {
-        z-index: 2;
         display: none;
         font-size: 27px;
         color: white;
         padding: 14px 20px;
         background-color: #0e194d;
         cursor: pointer;
+        z-index: 2;
       }
 
       /* For small screens (mobile devices) */
