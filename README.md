@@ -227,6 +227,7 @@
         <a href="/Yritys">Yritys</a>
         <a href="/Palvelut">Palvelut</a>
         <a href="/Koulutus">Koulutus</a>
+      
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()" aria-label="Toggle navigation">&#9776;</a>
     </div>
