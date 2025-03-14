@@ -24,7 +24,7 @@
         padding: 14px 20px; /* Padding inside each link */
         text-decoration: none; /* Removes underline from links */
         color: white; /* White text color */
-        font-size: 1px; /* Font size for the links */
+        font-size: 16px; /* Adjusted font size */
         transition: background-color 0.3s ease; /* Smooth transition for background color change */
       }
 
@@ -196,7 +196,7 @@
         text-decoration: none; /* Removes underline */
         color: white; /* Link color in the footer */
         font-size: 16px; /* Optional: Adjust font size for links */
-        margin: 0 10px; /* Add spacing between links */
+        margin: 0 15px; /* Added some margin to space out the footer links */
         transition: color 0.3s ease; /* Smooth transition for color change */
       }
 
