@@ -44,7 +44,7 @@
       .navbar .icon {
         z-index: 2;
         display: none;
-        font-size: 27px;
+        font-size: 24px;
         color: white;
         padding: 14px 20px;
         background-color: #0e194d;
