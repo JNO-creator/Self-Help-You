@@ -141,24 +141,24 @@
         border: 1px solid #ddd;
         border-radius: 8px;
         transition: transform 0.3s ease;
-        text-align: center; /* Center text inside the box */
+        text-align: center;
         overflow-wrap: break-word; /* Prevent overflow of long words */
       }
 
       /* Separate header, content, and footer sections */
       .box-header {
         padding: 10px 0;
-        text-align: center; /* Ensure the header text is centered */
+        text-align: center;
       }
 
       .box-content {
         padding: 10px;
-        text-align: center; /* Ensure the content text is centered */
+        text-align: center;
       }
 
       .box-footer {
         padding: 10px;
-        text-align: center; /* Center the footer content (including the button) */
+        text-align: center;
       }
 
       /* Title and text styles inside the box */
@@ -190,16 +190,16 @@
       footer {
         text-align: center;
         padding: 20px;
-        background-color: #0e194d; /* Blue background for the footer */
-        color: white; /* White text color */
+        background-color: #0e194d;
+        color: white;
       }
 
       footer a {
-        text-decoration: none; /* Removes underline */
-        color: white; /* Link color in the footer */
-        font-size: 16px; /* Optional: Adjust font size for links */
-        margin: 0 15px; /* Added some margin to space out the footer links */
-        transition: color 0.3s ease; /* Smooth transition for color change */
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        margin: 0 15px;
+        transition: color 0.3s ease;
       }
 
       footer a:hover {
@@ -231,7 +231,7 @@
       <a href="/Koulutus">Koulutus</a>
 
       <!-- Hamburger Icon -->
-      <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()" aria-label="Toggle navigation">&#9776;</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
     </div>
 
     <!-- Header with rolling text effect -->
@@ -247,7 +247,7 @@
     <!-- Main Content -->
     <section>
       <div class="box-container">
-        <!-- Meistä Box -->
+        <!-- Box Components -->
         <div class="box">
           <div class="box-header">
             <h3>Meistä</h3>
@@ -256,11 +256,10 @@
             <p>Lue lisää meistä ja referensseistämme.</p>
           </div>
           <div class="box-footer">
-            <a href="/Meista" class="cta-btn">Lue lisää</a>
+            <a href="/Meista">Lue lisää</a>
           </div>
         </div>
 
-        <!-- Yritys Box -->
         <div class="box">
           <div class="box-header">
             <h3>Yritys</h3>
@@ -269,11 +268,10 @@
             <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
           </div>
           <div class="box-footer">
-            <a href="/Yritys" class="cta-btn">Tutustu</a>
+            <a href="/Yritys">Tutustu</a>
           </div>
         </div>
 
-        <!-- Palvelut Box -->
         <div class="box">
           <div class="box-header">
             <h3>Palvelut</h3>
@@ -282,11 +280,10 @@
             <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
           </div>
           <div class="box-footer">
-            <a href="/Palvelut" class="cta-btn">Katso tästä</a>
+            <a href="/Palvelut">Katso tästä</a>
           </div>
         </div>
 
-        <!-- Koulutus Box -->
         <div class="box">
           <div class="box-header">
             <h3>Koulutus</h3>
@@ -295,7 +292,7 @@
             <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
           </div>
           <div class="box-footer">
-            <a href="/Koulutus" class="cta-btn">Lue lisää</a>
+            <a href="/Koulutus">Lue lisää</a>
           </div>
         </div>
       </div>
@@ -305,9 +302,9 @@
     <footer>
       <div class="footer-section contact">
         <h4>Self-Help-You - osana yrityksesi tulevaisuuden suunnittelua</h4>
-        <a href="#Otayhteytta" class="cta-btn">Ota yhteyttä</a>
-        <a href="#Sahkoposti" class="cta-btn">Sähköposti</a>
-        <a href="#Kanavat" class="cta-btn">Kanavat</a>
+        <a href="#Otayhteytta">Ota yhteyttä</a>
+        <a href="#Sahkoposti">Sähköposti</a>
+        <a href="#Kanavat">Kanavat</a>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
@@ -320,16 +317,6 @@
         var navbar = document.getElementById("myNavbar");
         navbar.classList.toggle("responsive");
       }
-
-      /* Scroll to the top */
-      window.onscroll = function() {
-        var navbar = document.getElementById("myNavbar");
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          navbar.classList.add("scrolled");
-        } else {
-          navbar.classList.remove("scrolled");
-        }
-      };
     </script>
   </body>
 </html>
