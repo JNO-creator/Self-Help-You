@@ -14,7 +14,7 @@
       /* Styling the navigation bar */
       .navbar {
         background-color: #e1705d; /* Red background color */
-        overflow: hidden; /* Ensures the content is contained within the navbar */
+        overflow: brek-word; /* Ensures the content is contained within the navbar */
         text-align: center; /* Centers the links */
       }
 
@@ -84,7 +84,7 @@
         padding: 20px;
         text-align: center;
         position: relative;
-        overflow: hidden;
+        overflow: brek-word;
       }
 
       /* Rolling text effect */
