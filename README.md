@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Meta tags and styles should be placed here -->
@@ -298,6 +299,8 @@
           <div class="box-footer">
             <a href="/Koulutus" class="cta-btn">Lue lisää</a>
           </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
