@@ -141,6 +141,7 @@
         border-radius: 8px;
         transition: transform 0.3s ease;
         text-align: center; /* Center text inside the box */
+        overflow-wrap: break-word; /* Prevent overflow of long words */
       }
 
       /* Separate header, content, and footer sections */
