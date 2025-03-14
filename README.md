@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
   <head>
     <!-- Meta tags and styles should be placed here -->
     <meta charset="UTF-8">
