@@ -52,7 +52,7 @@
       }
 
       /* For small screens (mobile devices) */
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 600px) {
         .navbar a {
           display: none; /* Hide the links by default */
           width: 100%; /* Make the links take full width */
