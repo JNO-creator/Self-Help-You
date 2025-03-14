@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags and styles should be placed here -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help-You</title>
     <style>
+      /* Your CSS here */
       /* Reset default margin and padding */
       body, html {
         margin: 0;
@@ -223,119 +226,112 @@
   <body>
     <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
-        <a href="#home" class="active">Koti</a>
-        <a href="/Meista">Meistä</a>
-        <a href="/Yritys">Yritys</a>
-        <a href="/Palvelut">Palvelut</a>
-        <a href="/Koulutus">Koulutus</a>
-      
-        <!-- Hamburger Icon -->
-        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()" aria-label="Toggle navigation">&#9776;</a>
+      <a href="#home" class="active">Koti</a>
+      <a href="/Meista">Meistä</a>
+      <a href="/Yritys">Yritys</a>
+      <a href="/Palvelut">Palvelut</a>
+      <a href="/Koulutus">Koulutus</a>
+
+      <!-- Hamburger Icon -->
+      <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()" aria-label="Toggle navigation">&#9776;</a>
     </div>
 
     <!-- Header with rolling text effect -->
     <div class="header">
-        <h1>Self-Help-You</h1>
+      <h1>Self-Help-You</h1>
     </div>
 
     <!-- New Section with Grey Background and Title/Text -->
     <div class="intro-text">
-        <h2>- osana pienyrityksien Tulevaisuuden Suunnittelua</h2>
+      <h2>- osana pienyrityksien Tulevaisuuden Suunnittelua</h2>
     </div>
 
     <!-- Main Content -->
     <section>
-        <div class="box-container">
-            <!-- Meistä Box -->
-            <div class="box">
-                <div class="box-header">
-                    <h3>Meistä</h3>
-                </div>
-                <div class="box-content">
-                    <p>Lue lisää meistä ja referensseistämme.</p>
-                </div>
-                <div class="box-footer">
-                    <a href="/Meista" class="cta-btn">Lue lisää</a>
-                </div>
-            </div>
-
-            <!-- Yritys Box -->
-            <div class="box">
-                <div class="box-header">
-                    <h3>Yritys</h3>
-                </div>
-                <div class="box-content">
-                    <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
-                </div>
-                <div class="box-footer">
-                    <a href="/Yritys" class="cta-btn">Tutustu</a>
-                </div>
-            </div>
-
-            <!-- Palvelut Box -->
-            <div class="box">
-                <div class="box-header">
-                    <h3>Palvelut</h3>
-                </div>
-                <div class="box-content">
-                    <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-                </div>
-                <div class="box-footer">
-                    <a href="/Palvelut" class="cta-btn">Katso tästä</a>
-                </div>
-            </div>
-
-            <!-- Koulutus Box -->
-            <div class="box">
-                <div class="box-header">
-                    <h3>Koulutus</h3>
-                </div>
-                <div class="box-content">
-                    <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                </div>
-                <div class="box-footer">
-                    <a href="/Koulutus" class="cta-btn">Lue lisää</a>
-                </div>
-            </div>
+      <div class="box-container">
+        <!-- Meistä Box -->
+        <div class="box">
+          <div class="box-header">
+            <h3>Meistä</h3>
+          </div>
+          <div class="box-content">
+            <p>Lue lisää meistä ja referensseistämme.</p>
+          </div>
+          <div class="box-footer">
+            <a href="/Meista" class="cta-btn">Lue lisää</a>
+          </div>
         </div>
+
+        <!-- Yritys Box -->
+        <div class="box">
+          <div class="box-header">
+            <h3>Yritys</h3>
+          </div>
+          <div class="box-content">
+            <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
+          </div>
+          <div class="box-footer">
+            <a href="/Yritys" class="cta-btn">Tutustu</a>
+          </div>
+        </div>
+
+        <!-- Palvelut Box -->
+        <div class="box">
+          <div class="box-header">
+            <h3>Palvelut</h3>
+          </div>
+          <div class="box-content">
+            <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+          </div>
+          <div class="box-footer">
+            <a href="/Palvelut" class="cta-btn">Katso tästä</a>
+          </div>
+        </div>
+
+        <!-- Koulutus Box -->
+        <div class="box">
+          <div class="box-header">
+            <h3>Koulutus</h3>
+          </div>
+          <div class="box-content">
+            <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+          </div>
+          <div class="box-footer">
+            <a href="/Koulutus" class="cta-btn">Lue lisää</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-section contact">
-            <h4>Self-Help-You - osana yrityksesi tulevaisuuden suunnittelua</h4>
-            <a href="#Otayhteytta" class="cta-btn">Ota yhteyttä</a>
-            <a href="#Sahkoposti" class="cta-btn">Sähköposti</a>
-            <a href="#Kanavat" class="cta-btn">Kanavat</a>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
-        </div>
+      <div class="footer-section contact">
+        <h4>Self-Help-You - osana yrityksesi tulevaisuuden suunnittelua</h4>
+        <a href="#Otayhteytta" class="cta-btn">Ota yhteyttä</a>
+        <a href="#Sahkoposti" class="cta-btn">Sähköposti</a>
+        <a href="#Kanavat" class="cta-btn">Kanavat</a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
+      </div>
     </footer>
 
     <script>
-        /* Function to toggle the navbar on small screens */
-        function toggleNavbar() {
-            var navbar = document.getElementById("myNavbar");
-            navbar.classList.toggle("responsive");
+      /* Function to toggle the navbar on small screens */
+      function toggleNavbar() {
+        var navbar = document.getElementById("myNavbar");
+        navbar.classList.toggle("responsive");
+      }
+
+      /* Scroll to the top */
+      window.onscroll = function() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
         }
-
-        /* Active link functionality */
-        document.querySelectorAll('.navbar a').forEach(link => {
-            link.addEventListener('click', function() {
-                document.querySelector('.navbar a.active').classList.remove('active');
-                this.classList.add('active');
-            });
-        });
-
-        /* Reset navbar on screen resize */
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 768) {
-                var navbar = document.getElementById("myNavbar");
-                navbar.classList.remove('responsive');
-            }
-        });
+      };
     </script>
-
   </body>
 </html>
