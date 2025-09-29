@@ -294,6 +294,8 @@
           <div class="box-footer">
             <a href="/Koulutus">Lue lisää</a>
           </div>
+           <div class="box-footer">
+            <a href="/Koulutus">Lue lisää</a>
         </div>
       </div>
     </section>
