@@ -293,10 +293,8 @@
           </div>
           <div class="box-footer">
         <a href="/Koulutus">Lue lisää</a>
-        </div>
       </div>
     </section>
-
     <!-- Footer -->
     <footer>
       <div class="footer-section contact">
