@@ -292,7 +292,7 @@
             <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
           </div>
           <div class="box-footer">
-            <a href="/Koulutus">Lue lisää</a>
+        <a href="/Koulutus">Lue lisää</a>
         </div>
       </div>
     </section>
