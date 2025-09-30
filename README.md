@@ -297,7 +297,6 @@
         </div>
       </div>
     </section>
-
     <!-- Footer -->
     <footer>
       <div class="footer-section contact">
@@ -310,7 +309,6 @@
         <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
       </div>
     </footer>
-
     <script>
       /* Function to toggle the navbar on small screens */
       function toggleNavbar() {
